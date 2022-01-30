@@ -1,16 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TopBar style="position:sticky;top:0;z-index:100"/>
+  <Index/>
+  <SearchBar/>
+  <Box/>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TopBar from "./components/TopBar.vue";
+import Index from "./components/Index.vue";
+import SearchBar from "./components/SearchBar.vue";
+import Box from "./components/Box.vue"
+
+import "./assets/common.css";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+    name: "App",
+    components:{
+      TopBar,Index,Box,SearchBar
+    }
 }
 </script>
 
@@ -21,6 +29,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
