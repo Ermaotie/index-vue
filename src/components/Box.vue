@@ -26,11 +26,11 @@ export default {
                     url: "https://translate.1b.mk/",
                     icon: "icon 1",
                 },
-                // {
-                //     name:"Url Shortener",
-                //     url: "https://1b.mk",
-                //     icon: "icon 2",
-                // },
+                {
+                    name:"DIY a TelegramBot",
+                    url: "https://github.com/Ermaotie/MilkyBot",
+                    icon: "icon 2",
+                },
                 {
                     name:"RssHub Server",
                     url: "https://rss.1b.mk",
