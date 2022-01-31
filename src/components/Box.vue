@@ -22,15 +22,15 @@ export default {
         return {
             sites:[
                 {
-                    name:"Blog",
-                    url: "https://1b.mk/blog",
+                    name:"Translator",
+                    url: "https://translate.1b.mk/",
                     icon: "icon 1",
                 },
-                {
-                    name:"Url Shortener",
-                    url: "https://1b.mk",
-                    icon: "icon 2",
-                },
+                // {
+                //     name:"Url Shortener",
+                //     url: "https://1b.mk",
+                //     icon: "icon 2",
+                // },
                 {
                     name:"RssHub Server",
                     url: "https://rss.1b.mk",
